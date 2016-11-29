@@ -1,6 +1,6 @@
 # Starting Boilerplate
 
-> boilerplate for small starting cut-up
+> boilerplate for small starting cut-ups
 
 ## Getting Started
 
@@ -22,12 +22,6 @@ Install Bower modules:
 
 ```bash
 bower install
-```
-
-Run Grunt to compile dist files:
-
-```bash
-grunt
 ```
 
 Run a local web server to view the design templates:
