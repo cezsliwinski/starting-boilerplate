@@ -1,0 +1,9 @@
+{
+  "name": "starting-boilerplate",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "jquery": "~2.x",
+    "csswizardry-grids": "^2.2.0"
+  }
+}

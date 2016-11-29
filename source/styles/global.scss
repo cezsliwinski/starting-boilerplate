@@ -1,0 +1,47 @@
+// These imports have no CSS output, but provide variables, mixins and helpers to aid in construction of
+// a design cutup.
+@import "imports/boilerplate.scss";
+
+/*
+--------------------
+Reset (normalize.css)
+--------------------
+*/
+
+@import "imports/normalize.scss";
+
+/*
+--------------------
+General
+--------------------
+*/
+
+body {
+  font-size: $base-font-scale + em;
+  line-height: 1.4;
+  padding: 0;
+  margin: 0;
+  font-family: $base-font-family;
+  color: $base-font-colour;
+}
+
+.b-page {
+  overflow-y: scroll;
+  &--noscroll {
+    overflow: hidden;
+    height:100%;
+    position:fixed;
+  }
+}
+
+img {
+  max-width: 100%;
+}
+
+/*
+--------------------
+Modules
+--------------------
+*/
+
+@import "imports/modules.scss";

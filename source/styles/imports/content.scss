@@ -1,0 +1,38 @@
+.b-link {
+  text-decoration: none;
+  &:hover {
+    color: #1f636a;
+  }
+}
+
+.b-typography--font {
+  &-light {
+    font-weight: 300;
+  }
+  &-medium {
+    font-weight: 600;
+  }
+  &-bold {
+    font-weight: 700;
+  }
+  &-italic {
+    font-style: italic;
+  }
+}
+
+.vertical-middle {
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+}
+
+.vertical-line {
+  height: 1px;
+  width: 150px;
+  position: absolute;
+  content: "";
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #fff;
+}

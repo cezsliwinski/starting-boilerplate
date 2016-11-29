@@ -1,0 +1,32 @@
+.b-banner {
+  padding: 90px 0 0 0;
+  position: relative;
+  z-index: 0;
+  @include rwd-to($desk) {
+    padding: 0;
+  }
+  &__headline {
+    font-size: 30px;
+    position: relative;
+    h2 {
+      text-align: center;
+      display: table;
+      margin: auto;
+      top: 50%;
+      transform: translateY(-50%);
+      position: absolute;
+    }
+    span {
+      display: block;
+      position: relative;
+      &:after {
+        @extend .vertical-line;
+        right: 0px;
+      }
+      &:before {
+        @extend .vertical-line;
+        left: 0px;
+      }
+    }
+  }
+}
