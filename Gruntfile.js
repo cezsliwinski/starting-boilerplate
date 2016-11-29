@@ -79,7 +79,7 @@ module.exports = function(grunt) {
                 files: {
                     // includes sass files within path
                     'dist/styles/global.css': 'source/styles/global.scss',
-                    'dist/styles/csswizardry-grids.css': 'source/bower_components/csswizardry-grids/csswizardry-grids.scss',
+                    'dist/styles/csswizardry-grids.css': 'source/bower_components/csswizardry-grids/csswizardry-grids.scss'
                 }
             }
         },

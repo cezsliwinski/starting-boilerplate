@@ -33,9 +33,9 @@ grunt
 Run a local web server to view the design templates:
 
 ```bash
-gulp dev
+grunt dev
 ```
 
 View the files on the local web server using a browser:
 
-http://localhost:9002
+http://localhost:3000
